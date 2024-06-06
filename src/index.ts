@@ -44,7 +44,7 @@ export class CostReportingAspect implements IAspect {
     // });
 
     if ((node as CfnResource).cfnResourceType) {
-    console.log('visit called', (node as CfnResource).cfnResourceType);
+      console.log('visit called', (node as CfnResource).cfnResourceType);
 
       const resourceType = (node as CfnResource).cfnResourceType;
       // const resourceProps = (child as CfnResource).node.metadata;

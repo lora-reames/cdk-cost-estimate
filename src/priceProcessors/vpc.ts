@@ -5,7 +5,7 @@ export const VPCPriceProcessor: PriceProcessor = {
     // Implement logic to calculate estimated cost for EC2 instances
     // Retrieve pricing data from AWS Pricing API
     // Calculate estimated cost based on instance type, region, etc.
-	console.log(resource.cfnResourceType, 'TESTING BS ADD 300');
+    console.log(resource.cfnResourceType, 'TESTING BS ADD 300');
     return 300;
   },
 };
